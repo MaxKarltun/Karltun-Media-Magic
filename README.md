@@ -12,7 +12,7 @@ PORTFOLIO & BLOG SITE
 ### 
 _____________________________________________________________________________
 # Karltun Media Magic
-This Pro Blog integrates all Outer Bounds Pictures services and pages.  This Site is the new portfolio for Karltun Moreno and is being used
+This Pro Blog integrates all Outer Bounds Pictures services and pages.  This Site is the new portfolio for Max Karltun and is being used
 for showcasing and marketing all recent works porfolio. 
 _________________________________________________________________________________________________________________________________________________________________
 # Project Visual 😎:
