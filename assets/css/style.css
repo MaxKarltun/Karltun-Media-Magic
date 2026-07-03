@@ -2741,7 +2741,25 @@ textarea:-ms-input-placeholder {
   position: relative;
   overflow: hidden;
 }
+.portfolio_page_gallery > .gird_item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.portfolio_page_gallery > .gird_item > .portfolio_thumb {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .portfolio_thumb a {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.portfolio_thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 .portfolio_thumb:hover::before {
@@ -2759,7 +2777,7 @@ textarea:-ms-input-placeholder {
   content: "";
   width: 100%;
   height: 100%;
-  background: #90744f;
+  background: rgba(0, 0, 0, 0.18);
   left: 0;
   top: 0;
   opacity: 0;
@@ -2770,6 +2788,9 @@ textarea:-ms-input-placeholder {
   -o-transition: 0.3s;
   pointer-events: none;
   z-index: 9;
+}
+.portfolio_thumb:hover::before {
+  opacity: 0;
 }
 
 .portfolio_text {

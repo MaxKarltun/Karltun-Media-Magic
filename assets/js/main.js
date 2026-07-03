@@ -207,19 +207,17 @@
     });
 
     
-    /*blog Isotope activation*/
-   $('.blog_page_gallery,.portfolio_page_gallery').imagesLoaded( function() {
-        // init Isotope
-        var $grid = $('.blog_page_gallery,.portfolio_page_gallery').isotope({
+    /*portfolio Isotope activation*/
+   $('.portfolio_page_gallery').imagesLoaded( function() {
+        // Use a row-based layout so the cards align cleanly instead of packing in masonry gaps.
+        var $grid = $('.portfolio_page_gallery').isotope({
            itemSelector: '.gird_item',
             percentPosition: true,
-            masonry: {
-                columnWidth: '.gird_item'
-            }
+            layoutMode: 'fitRows'
         });
             
         // filter items on button click
-        $('.blog_messonry_button,.portfolio_messonry_button').on( 'click', 'button', function() {
+        $('.portfolio_messonry_button').on( 'click', 'button', function() {
            var filterValue = $(this).attr('data-filter');
            $grid.isotope({ filter: filterValue });
             
