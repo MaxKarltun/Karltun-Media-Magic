@@ -2,7 +2,7 @@
 
 PORTFOLIO & BLOG SITE
 
-![App Screenshot](mkmp.png)
+![App Screenshot](MKMP.png)
 
 <!--![Ss](https://media.licdn.com/dms/image/D4E2CAQFQPQq38aMp7w/comment-image-shrink_8192_1280/0/1708550277842?e=1709157600&v=beta&t=ppzKdQHXdRNgQOC7luYhA5NUlte7DEoKd-iLmSUt0A0)-->
 
